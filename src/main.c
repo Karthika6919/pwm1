@@ -8,7 +8,7 @@ int main(void){
 	while(1){
 
 		 if (PINS_DRV_ReadPins(PTC)&(1<<12)){
-		brightness++;
+		//brightness++;
 
 	switch(brightness){
 
